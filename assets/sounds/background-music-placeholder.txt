@@ -1,0 +1,59 @@
+ALIEN INVASION PINBALL - BACKGROUND MUSIC PLACEHOLDER
+
+This file serves as a placeholder for the background_music.mp3 asset that will be generated using AI tools.
+
+ASSET DETAILS:
+- Filename: background_music.mp3
+- Description: Background music for the game
+- Duration: 30-60 seconds (looping)
+- Format: MP3
+
+AI GENERATION PROMPT:
+"Create an 8-bit synthwave loop for a retro arcade game, with pulsing bass, arpeggiated synths, and a catchy melody. Should evoke 1980s sci-fi and space themes. 30-60 seconds loop that can repeat seamlessly."
+
+IMPLEMENTATION NOTES:
+1. The music should have a driving synthwave beat with 8-bit retro sound
+2. The tempo should be medium-fast (120-140 BPM) to create excitement
+3. The melody should be catchy but not distracting from gameplay
+4. The track should loop seamlessly without noticeable breaks
+5. The overall mood should be a mix of tension (alien invasion) and excitement
+6. The instrumentation should include:
+   - 8-bit bass line
+   - Arpeggiated synth patterns
+   - Simple lead melody
+   - Occasional sci-fi sound effects
+7. The music should intensify during special game modes
+
+MUSICAL STRUCTURE:
+- Intro (4-8 bars): Establish the synthwave grid with bass and simple elements
+- Main Theme (8-16 bars): Introduce the primary melody and full instrumentation
+- Bridge (4-8 bars): Variation with different chord progression or intensity
+- Return to Main Theme: Seamless transition back to the main theme for looping
+
+Once generated, this asset will be implemented in the game using the Web Audio API:
+
+```javascript
+// Audio setup
+setupAudio: function() {
+    // Create audio context
+    this.audioContext = new (window.AudioContext || window.webkitAudioContext)();
+    
+    // Background music
+    this.backgroundMusic = new Audio('./assets/sounds/background_music.mp3');
+    this.backgroundMusic.loop = true;
+    
+    // Create audio source from the audio element
+    this.musicSource = this.audioContext.createMediaElementSource(this.backgroundMusic);
+    
+    // Connect to audio context destination
+    this.musicSource.connect(this.audioContext.destination);
+},
+
+// Play background music
+playBackgroundMusic: function() {
+    // Start playback
+    this.backgroundMusic.play()
+        .catch(e => console.error('Error playing background music:', e));
+    
+    console.log('Background music started');
+}

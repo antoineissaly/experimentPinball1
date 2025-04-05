@@ -1,0 +1,48 @@
+ALIEN INVASION PINBALL - ASSET GENERATION GUIDE
+
+This document outlines the visual assets needed for the game and provides AI image generation prompts to create them.
+
+COLOR PALETTE:
+- Dark Purple: #120458
+- Purple: #7b2cbf
+- Pink: #e83283
+- Cyan: #43dde6
+- Blue: #0a81d1
+
+REQUIRED ASSETS:
+
+1. PINBALL TABLE BACKGROUND
+Prompt: "8-bit pixel art pinball table background with space theme, synthwave colors (purple, pink, cyan), stars, and a distant Earth visible at the top. Dark background with grid lines in synthwave style."
+
+2. FLIPPERS (LEFT AND RIGHT)
+Prompt: "8-bit pixel art pinball flippers, synthwave cyan color (#43dde6), simple triangular shape, on transparent background, sprite sheet showing different rotation angles."
+
+3. BALL
+Prompt: "8-bit pixel art pinball ball, glowing cyan color (#43dde6), small circular shape with slight shine effect, on transparent background."
+
+4. ALIEN ENEMIES (VARIOUS TYPES)
+Prompt: "8-bit pixel art space invader style alien sprites in synthwave colors (pink #e83283, purple #7b2cbf), 4 different alien designs, on transparent background, sprite sheet showing each alien in 2 animation frames."
+
+5. BUMPERS
+Prompt: "8-bit pixel art pinball bumpers shaped like small UFOs, synthwave purple color (#7b2cbf) with pink (#e83283) highlights, on transparent background."
+
+6. TARGETS
+Prompt: "8-bit pixel art pinball targets shaped like planets or asteroids, synthwave colors (mix of purple, pink, cyan), on transparent background, sprite sheet showing inactive and hit states."
+
+7. RAMPS
+Prompt: "8-bit pixel art pinball ramps in synthwave style, glowing pink color (#e83283), simple angular design, on transparent background."
+
+8. MOTHERSHIP (MULTIBALL TRIGGER)
+Prompt: "8-bit pixel art large alien mothership in synthwave colors (primarily purple #7b2cbf with pink #e83283 and cyan #43dde6 highlights), on transparent background, sprite sheet showing inactive, activating, and activated states."
+
+9. GAME LOGO
+Prompt: "8-bit pixel art logo for 'Alien Invasion Pinball' in synthwave style, text with glow effect, purple to pink gradient, grid background, retro sci-fi aesthetic."
+
+10. UI ELEMENTS
+Prompt: "8-bit pixel art UI elements for pinball game in synthwave style (purple, pink, cyan), including score display, life counter with small Earth icons, game over screen, and start button."
+
+IMPLEMENTATION NOTES:
+- All assets should be created as PNG files with transparent backgrounds where appropriate
+- Sprite sheets should be organized with clear spacing between frames
+- Keep the pixel resolution consistent across assets (suggested 16x16 or 32x32 grid for smaller elements)
+- Maintain the synthwave color palette for visual consistency

@@ -1,0 +1,62 @@
+ALIEN INVASION PINBALL - BACKGROUND ASSET PLACEHOLDER
+
+This file serves as a placeholder for the background.png asset that will be generated using AI tools.
+
+ASSET DETAILS:
+- Filename: background.png
+- Description: Pinball table background
+- Size: 800x1000 pixels
+- Format: PNG
+
+AI GENERATION PROMPT:
+"8-bit pixel art pinball table background with space theme, synthwave colors (purple, pink, cyan), stars, and a distant Earth visible at the top. Dark background with grid lines in synthwave style."
+
+IMPLEMENTATION NOTES:
+1. The background should have a dark purple/blue base color (#120458)
+2. A grid pattern should extend into the distance, creating a synthwave "outrun" aesthetic
+3. The grid lines should be in pink (#e83283) or cyan (#43dde6)
+4. Stars of varying sizes should be scattered throughout the background
+5. A small Earth should be visible at the top of the image
+6. The overall style should be 8-bit pixel art, maintaining a retro arcade feel
+7. The image should be designed to fit the pinball table layout, with space for:
+   - Flippers at the bottom
+   - Bumpers and targets in the middle
+   - Special targets and ramps throughout
+   - The mothership at the top center
+
+LAYOUT SKETCH:
+```
++----------------------------------+
+|             EARTH                |
+|                                  |
+|          MOTHERSHIP              |
+|                                  |
+|     STARS       STARS            |
+|                                  |
+|  ALIEN          ALIEN            |
+|  TARGETS        TARGETS          |
+|                                  |
+| BUMPERS         BUMPERS          |
+|                                  |
+|     RAMP          RAMP           |
+|                                  |
+|                                  |
+|  FLIPPER         FLIPPER         |
++----------------------------------+
+```
+
+Once generated, this asset will be used in the game.js file to replace the current background implementation:
+
+```javascript
+// Create renderer with background image
+this.render = Matter.Render.create({
+    canvas: this.canvas,
+    engine: this.engine,
+    options: {
+        width: this.width,
+        height: this.height,
+        wireframes: false,
+        background: './assets/images/background.png',
+        showAngleIndicator: false
+    }
+});

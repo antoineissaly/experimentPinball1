@@ -1,0 +1,65 @@
+/* Synthwave color palette */
+:root {
+  --primary-dark: #120458;
+  --primary-purple: #7b2cbf;
+  --primary-pink: #e83283;
+  --primary-cyan: #43dde6;
+  --primary-blue: #0a81d1;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--primary-dark);
+  font-family: 'Courier New', monospace;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
+}
+
+#game-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  max-width: 800px;
+  max-height: 900px;
+  border: 4px solid var(--primary-pink);
+  box-shadow: 0 0 20px var(--primary-cyan), 0 0 40px var(--primary-purple);
+}
+
+#game-canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+}
+
+#game-ui {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-family: 'Courier New', monospace;
+  font-size: 18px;
+  font-weight: bold;
+  color: #43dde6;
+  text-shadow: 0 0 5px #e83283;
+  z-index: 10;
+  padding: 10px;
+  background-color: rgba(18, 4, 88, 0.5);
+  border-radius: 5px;
+  border: 2px solid #e83283;
+}
+
+#score-display, #lives-display {
+  margin: 0;
+}

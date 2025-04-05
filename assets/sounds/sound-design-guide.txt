@@ -1,0 +1,73 @@
+ALIEN INVASION PINBALL - SOUND DESIGN GUIDE
+
+This document outlines the audio assets needed for the game and provides AI sound generation prompts to create them.
+
+AUDIO STYLE:
+- 8-bit retro sound effects
+- Synthwave music elements
+- Sci-fi alien and space themes
+- Arcade pinball machine sounds
+
+REQUIRED AUDIO ASSETS:
+
+1. BACKGROUND MUSIC
+Prompt: "Create an 8-bit synthwave loop for a retro arcade game, with pulsing bass, arpeggiated synths, and a catchy melody. Should evoke 1980s sci-fi and space themes. 30-60 seconds loop that can repeat seamlessly."
+
+2. GAME START
+Prompt: "Create a short 8-bit game start sound effect with ascending tones and a triumphant finish, synthwave style, 2-3 seconds long."
+
+3. BALL LAUNCH
+Prompt: "Create an 8-bit sound effect for a pinball launcher, with a mechanical spring sound followed by a whoosh, 1 second long."
+
+4. FLIPPER SOUNDS
+Prompt: "Create an 8-bit sound effect for pinball flippers, a quick mechanical click/thud, 0.2 seconds long."
+
+5. BALL COLLISION - GENERAL
+Prompt: "Create an 8-bit sound effect for a pinball hitting a wall, a short bounce/ping sound, 0.3 seconds long."
+
+6. ALIEN SCOUT HIT (BUMPER)
+Prompt: "Create an 8-bit sound effect for hitting an alien in a game, a satisfying electronic zap with a slight alien squeal, 0.5 seconds long."
+
+7. ALIEN FIGHTER HIT (DROP TARGET)
+Prompt: "Create an 8-bit sound effect for destroying a small alien ship, with a short explosion and electronic warble, 0.7 seconds long."
+
+8. ASTEROID FIELD PASS (ROLLOVER)
+Prompt: "Create an 8-bit sound effect for passing through an asteroid field, a series of quick pings with a slight echo, 0.8 seconds long."
+
+9. MOTHERSHIP HIT
+Prompt: "Create an 8-bit sound effect for hitting a large alien mothership, a deep resonant impact followed by alien alarm sounds, 1.2 seconds long."
+
+10. RAMP COMPLETION
+Prompt: "Create an 8-bit sound effect for completing a pinball ramp, an ascending series of tones with a satisfying finish, 1 second long."
+
+11. MULTIBALL ACTIVATION
+Prompt: "Create an 8-bit sound effect for activating multiball in a pinball game, an exciting buildup with alarm sounds and a triumphant finish, 3 seconds long."
+
+12. INVASION ALERT
+Prompt: "Create an 8-bit alien invasion alarm sound effect, with pulsing siren tones and retro sci-fi elements, 2 seconds long."
+
+13. BONUS SCORING
+Prompt: "Create an 8-bit sound effect for earning bonus points, a series of ascending happy tones with sparkle effects, 1.5 seconds long."
+
+14. BALL DRAIN
+Prompt: "Create an 8-bit sound effect for losing a pinball, a descending sad tone with a final thud, 1 second long."
+
+15. GAME OVER
+Prompt: "Create an 8-bit game over sound effect with descending tones and a final low note, synthwave style, 2-3 seconds long."
+
+16. LEVEL UP
+Prompt: "Create an 8-bit level up sound effect with triumphant ascending tones and a fanfare finish, 2 seconds long."
+
+17. TILT WARNING
+Prompt: "Create an 8-bit pinball tilt warning sound effect, a short alarming buzz, 0.5 seconds long."
+
+18. COMBO ACHIEVED
+Prompt: "Create an 8-bit sound effect for achieving a combo in a game, a series of quick ascending notes with a satisfying finish, 1 second long."
+
+IMPLEMENTATION NOTES:
+- All sound effects should be exported as .mp3 or .wav files
+- Background music should loop seamlessly
+- Sound effects should be short and responsive to maintain game feel
+- Volume levels should be consistent across all assets
+- Consider creating variations of common sounds (like ball collisions) to add variety
+- Ensure sounds are distinct enough to be recognized during fast gameplay
